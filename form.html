@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+  <form method="get" action="#">
+    <input name="fullname" type="text" placeholder="Full name" required/>
+    <input name="email" type="email" placeholder="Email" required/>
+    <input name="pwd" type="password" placeholder="Pass word" required/>
+    <input name="age" type="number" placeholder="Age"/>
+    <input name="birthday" type="date" placeholder="Birth day"/>
+    <input name="time" type="time" placeholder="Timer"/>
+    <input name="w" type="week" placeholder="Week"/>
+    <input name="phone" type="tel" placeholder="Telephone"/>
+  <br/>
+   <label><input name="gender" type="radio" value="male"/>Nam</label>
+    <label><input name="gender" type="radio" value="female"/>Nữ</label>
+    <label><input name="gender" type="radio" value="other"/>Khác</label>
+  <br/>
+    <label><input name="multi" type="checkbox" value="m1"/>Đáp án 1</label>
+    <label><input name="multi" type="checkbox" value="m2"/>Đáp án 2</label>
+    <label><input name="multi" type="checkbox" value="m3"/>Đáp án 3</label>
+    <label><input name="multi" type="checkbox" value="m4"/>Đáp án 4</label>
+  <br/>
+      <textarea rows="5" cols="50" name="description" placeholder="Tiểu sử bản thân"></textarea>
+  <br/>
+   <select name="country"/>
+     <option value="vn">Việt Nam</option>
+     <option value="lao">Lào</option>
+     <option value="cam">Cam phu chia</option>
+     <option value="thai">Thái lan</option>
+   </select>
+  <br/>
+   <button type="reset">Reset</button>
+     <button type="sumbit">Sumbit</button>
+     <button type="button">Button</button>
+
+  </form>
+</body>
+</html>

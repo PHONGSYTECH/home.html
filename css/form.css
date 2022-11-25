@@ -1,0 +1,9 @@
+input[nam=fullname] {
+    background-coler: #ffa500;
+}
+input[type=email] {
+    background-coler: green;
+}
+input[type=password][name=pwd] {
+    background-coler: #ffa500;
+}

@@ -1,0 +1,48 @@
+img{
+    max-width: 100%;
+}
+div{/* div là khung tranh*/
+    width: calc(25% - 30px); /*(có thể thay thế bằng calc để tính toán cộng trừ khác đơn vị)*/
+    /* 100% là 1 ảnh 1 hàng, 50% là 2 thằng 1 hàng, 25% là 4 ảnh 1 hàng*/
+    float: left;
+    margin: 20px 5px 20px 20px;
+    /*margin-top: 15px;*/
+    /*margin-right: 15px;*/
+    /*margin-bottom: 15px;*/
+    /*margin-left: 15px;*/
+    padding: 15px; /*giãn lề*/
+    background-color: antiquewhite;
+    box-sizing: border;/*làm cho các khối giữ nguyên diện tích*/
+    border: 1px solid red;/* solid - nét liền, dashes ...*/
+    border-radius: 8px;/*cắt góc*/
+    box-shadow: 5px 5px 5px green; /* bóng phía sau*/
+    transition: all 300ms;
+}
+div:hover{
+    transform: rotate(45deg);/*khi đưa chuật vào sẽ xoay 45 độ "deg" = độ)*/
+    background-color: #ffa500;
+    /*display: none - đưa chuột vào biến mất*/
+}
+a:hover{
+    text-decoration: none;
+    transition: 300ms;
+}
+#box-s{
+    background-color: deeppink;/*dùng cho id*/
+}
+.box-c{
+    color: blueviolet;
+}
+.box-c.box-p{
+
+}
+.box-c h2{
+
+}
+.ph{
+    color: blueviolet;
+}
+div p{
+    color: aqua;
+ }
+/*tag -> parent tag -> class -> parent class -> id -> parent id : thứ tự ưu tiên*/
